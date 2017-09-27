@@ -64,6 +64,11 @@ ts-jumper input[type="text"],
   background: var(--background)  !important;
 }
 
+ts-jumper-results::-webkit-scrollbar-thumb,
+ts-jumper-results::-webkit-scrollbar-track {
+  color: var(--background)  !important;
+}
+
 #channels_scroller.show_which_channel_is_active[class] li.active .presence.active i.presence_icon,
 #channels_scroller.show_which_channel_is_active[class] li.active .slackbot_icon,
 #channels_scroller.show_which_channel_is_active[class] li.active .presence.away i.presence_icon {
@@ -75,8 +80,12 @@ ts-jumper input[type="text"],
 }
 
 ts-message, .channel_title .channel_name, ts-jumper input[type="text"],
-ts-jumper ol li .member_real_name, ts-jumper ol li .view_name, ts-jumper ol li .channel_name {
+ts-jumper ol li .c-member__display-name, ts-jumper ol li .view_name, ts-jumper ol li .channel_name {
   color: var(--text) !important;
+}
+
+ts-jumper ol li.highlighted:not(.no_hover) *, ts-jumper ol li:hover * {
+  color: var(--text-bright) !important;
 }
 
 .light_theme ts-message .message_content a.message_sender, #msg_input::-webkit-input-placeholder,
