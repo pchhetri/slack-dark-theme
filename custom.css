@@ -703,8 +703,8 @@ ts-jumper ts-jumper-container {
 }
 
 .feature_name_tagging_client .app_preview_link_slug, .feature_name_tagging_client .internal_member_link, .feature_name_tagging_client .internal_user_group_link, .feature_name_tagging_client ts-mention {
-    background-color: #282a2e !important;
-    color: #aadbe4 !important;
+    background-color: #0576B9 !important;
+    color: #eef7fc !important;
 }
 
 .comment .mention, .feature_name_tagging_client .comment .mention, .feature_name_tagging_client ts-message .mention, ts-message .mention, span.match {
