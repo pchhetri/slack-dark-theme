@@ -520,12 +520,16 @@ ts-message .reply_bar:hover {
   border: 1px solid var(--border-bright);
 }
 
-#archives_return, .messages_banner {
-   color: var(--text);
+#archives_return {
+   color: var(--text-bright);
    background-color: var(--background-elevated);
    border: 1px solid var(--border-bright);
    border-bottom: 0px;
    border-radius: 10px 10px 0 0;
+}
+
+.messages_banner a {
+  color: var(--text-bright) !important;
 }
 
 /* preferences page */
