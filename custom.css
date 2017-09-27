@@ -369,8 +369,8 @@ ts-message a.timestamp{
 
 .file_preview_action.btn.ts_tip, .file_preview_link.btn.file_comment_link {
    border: 1px solid var(--border-bright) !important;
-   background-color: var(--background-hover) !important;
-   color: var(--text) !important;
+   background-color: var(--background-light) !important;
+   color: var(--text-bright) !important;
 }
 .file_preview_action.btn.ts_tip:hover, .file_preview_link.btn.file_comment_link:hover {
    background-color: var(--background) !important;
