@@ -747,7 +747,7 @@ ts-jumper ts-jumper-container {
     border: 1px solid #15171b;
 }
 
-.feature_name_tagging_client .app_preview_link_slug, .feature_name_tagging_client .internal_member_link, .feature_name_tagging_client .internal_user_group_link, .feature_name_tagging_client ts-mention, ts-message .internal_member_link {
+.feature_name_tagging_client .app_preview_link_slug, .feature_name_tagging_client .internal_member_link, .feature_name_tagging_client .internal_user_group_link, .feature_name_tagging_client ts-mention, ts-message .internal_member_link, ts-message .internal_user_group_link {
     background-color: #0576B9 !important;
     color: #eef7fc !important;
 }
