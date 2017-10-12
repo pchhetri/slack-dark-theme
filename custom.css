@@ -82,7 +82,7 @@ ts-jumper-results::-webkit-scrollbar-track {
 
 ts-message, .channel_title .channel_name, ts-jumper input[type="text"],
 ts-jumper ol li .c-member__display-name, ts-jumper ol li .view_name, ts-jumper ol li .channel_name,
-#file_preview_comments_section .comment_body, #file_preview_comments_section a.message_sender, .searchable_member_list .list_items .c-member__display-name {
+#file_preview_comments_section .comment_body, #file_preview_comments_section a.message_sender, .searchable_member_list .list_items .c-member__display-name, .dm_badge div, .dm_explanation {
   color: var(--text) !important;
 }
 
