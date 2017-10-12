@@ -214,12 +214,12 @@ ts-message .action_hover_container .btn_msg_action,
 #flex_contents .subheading,
 #search_filters.files #filter_files, #search_filters.messages #filter_messages,
 .menu ul li a,
-.btn, .btn_outline, #file_comment_submit_btn > span, .file_list_item .contents > div, .file_list_item .contents > p, #file_listing_bottom_button {
+.btn, .btn_outline, #file_comment_submit_btn > span, .file_list_item .contents > div, .file_list_item .contents > p, #file_listing_bottom_button, .upload_actions .dialog_go {
   color: var(--text) !important;
   border-color: var(--border-dim) !important;
 }
 
-#file_comment_submit_btn:after, #file_listing_bottom_button:after {
+#file_comment_submit_btn:after, #file_listing_bottom_button:after, .upload_actions .dialog_go:after {
   border: 1px solid #C7CACD;
 }
 
